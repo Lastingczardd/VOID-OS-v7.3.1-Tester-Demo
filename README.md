@@ -1,6 +1,6 @@
 VOID OS Soverign AI
 
-> A Local-First Autonomous Engineering Platform**
+> A Local-First Autonomous Engineering Platform
 
 VOID OS Soverign AI is an autonomous engineering platform designed to help developers and organizations continuously improve software through research, implementation, validation, and learning.
 
