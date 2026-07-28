@@ -1,99 +1,28 @@
-VOID OS Soverign AI
+# VOID OS v7.3.1 Tester Demo
 
-> A Local-First Autonomous Engineering Platform
+This build demonstrates the **START → autonomous engineering cycles → STOP** experience without exposing an unlimited unattended runtime.
 
-VOID OS Soverign AI is an autonomous engineering platform designed to help developers and organizations continuously improve software through research, implementation, validation, and learning.
+## Demo limits
 
-Inspired by the lightweight, modular philosophy of Void Linux, VOID OS brings those same principles into the AI era. Instead of being an operating system for computers, it's an operating system for autonomous engineering.
+- Up to **3 completed cycles per START**
+- Up to **10 completed cycles for this demo installation**
+- Core self-upgrades are disabled
+- External research and image generation are disabled
+- Project upgrades remain bounded, backed up, validated, and reversible
+- Every completed cycle produces a successor project generation and evidence trail
 
----
+## Run
 
-🚀 Vision
+On Windows, double-click `START_VOID_OS.bat`.
 
-Modern software teams spend countless hours on repetitive engineering tasks.
+A local Ollama installation and the configured local models are required. Press **START**, watch the opportunity tournament and implementation loop, then inspect generated projects and outputs.
 
-VOID OS aims to automate those tasks while keeping developers in control.
+## Tester scorecard
 
-Its goal is simple:
+1. Was the selected opportunity grounded in project evidence?
+2. Did the competing candidates differ meaningfully?
+3. Did the winning implementation improve the project?
+4. Did validation and rollback behavior inspire confidence?
+5. Was compute spent proportional to value produced?
 
-- Discover opportunities
-- Research solutions
-- Build improvements
-- Validate results
-- Learn from every cycle
-- Repeat
-
-The result is continuous, evidence-driven improvement.
-
----
-
-Features
-
-- 🧠 Autonomous project analysis
-- 🔍 Opportunity discovery
-- ⚙️ Automated implementation
-- ✅ Validation & testing
-- 📚 Evidence & learning history
-- 🔄 Continuous improvement cycles
-- 💾 Safe rollback & backups
-- 🖥️ Local-first architecture
-- 🧩 Lightweight modular design
-
----
-
-Philosophy
-
-VOID OS follows a simple principle:
-
-> Small systems doing big things.
-
-Rather than relying on one giant AI, VOID OS is built from focused modules that work together to solve engineering problems efficiently.
-
----
-
-Current Status
-
-🚧 Early Alpha
-
-This project is actively evolving.
-
-Expect:
-
-- Rapid improvements
-- New features
-- Breaking changes
-- Bugs
-
-Community feedback is extremely valuable during this stage.
-
----
-
-Roadmap
-
-- [x] Autonomous Engineering Kernel
-- [x] Continuous Learning
-- [x] Evidence Tracking
-- [x] Safe Rollback
-- [x] Project Lineage
-- [ ] Expanded Research Agents
-- [ ] Plugin System
-- [ ] Team Collaboration
-- [ ] Enterprise Features
-
----
-
-Contributing
-
-Contributions, ideas, bug reports, and feature requests are welcome.
-
-If you'd like to help shape the future of autonomous engineering, open an issue or submit a pull request.
-
----
-
-License
-
-MIT License
-
----
-
-Built for developers who would rather build the future than repeat the past.
+The demo parks itself when its cycle budget is reached, preventing unattended token soup.

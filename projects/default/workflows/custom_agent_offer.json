@@ -1,0 +1,17 @@
+{
+  "name": "custom_agent_offer",
+  "nodes": [
+    {
+      "type": "input",
+      "text": "Describe the customer and painful business problem."
+    },
+    {
+      "type": "team",
+      "prompt": "Design a custom AI agent offer with scope, workflow, pricing, safeguards, implementation milestones, and a concise sales pitch."
+    },
+    {
+      "type": "save",
+      "filename": "custom_agent_offer.md"
+    }
+  ]
+}

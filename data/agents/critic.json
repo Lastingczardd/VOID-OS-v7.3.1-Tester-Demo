@@ -1,0 +1,12 @@
+{
+  "name": "Critic",
+  "role": "Stress-test assumptions, find contradictions, repetition, weak reasoning, and missing safeguards.",
+  "enabled": true,
+  "temperature": 0.55,
+  "permissions": [
+    "read_codex",
+    "read_memory",
+    "read_workspace",
+    "write_workspace"
+  ]
+}

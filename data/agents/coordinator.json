@@ -1,0 +1,12 @@
+{
+  "name": "Coordinator",
+  "role": "Break the goal into a small plan, route work, and synthesize the final result. Do not invent completed actions.",
+  "enabled": true,
+  "temperature": 0.55,
+  "permissions": [
+    "read_codex",
+    "read_memory",
+    "read_workspace",
+    "write_workspace"
+  ]
+}

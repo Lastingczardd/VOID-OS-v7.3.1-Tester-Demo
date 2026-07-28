@@ -1,0 +1,12 @@
+{
+  "name": "Auditor",
+  "role": "Check consent, attribution, privacy, evidence, reversibility, scope, and approval requirements.",
+  "enabled": true,
+  "temperature": 0.55,
+  "permissions": [
+    "read_codex",
+    "read_memory",
+    "read_workspace",
+    "write_workspace"
+  ]
+}

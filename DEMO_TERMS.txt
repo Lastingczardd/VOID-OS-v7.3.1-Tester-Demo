@@ -1,0 +1,20 @@
+VOID OS TESTER DEMO NOTICE
+
+Copyright © 2026. All rights reserved.
+
+This build is supplied solely for private evaluation and feedback. It is not
+licensed for resale, redistribution, sublicensing, public hosting, or use as
+the basis of a competing commercial product.
+
+Do not share the archive, source files, screenshots containing confidential
+implementation details, model prompts, internal documentation, or generated
+security reports without written permission.
+
+Testers retain ownership of their own pre-existing project material. Feedback,
+bug reports, and suggestions may be used to improve VOID OS without obligation
+to pay royalties.
+
+THE SOFTWARE IS PRE-RELEASE AND PROVIDED "AS IS" WITHOUT WARRANTIES. KEEP
+BACKUPS AND DO NOT USE IT ON PRODUCTION, SAFETY-CRITICAL, OR IRREPLACEABLE DATA.
+
+This notice is not a substitute for a signed beta evaluation agreement or legal advice.

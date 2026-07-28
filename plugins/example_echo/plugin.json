@@ -1,0 +1,13 @@
+{
+  "id": "example_echo",
+  "name": "Example Echo",
+  "version": "1.0",
+  "enabled": false,
+  "permissions": [
+    "text_only"
+  ],
+  "tools": [
+    "echo"
+  ],
+  "reviewed_sha256": "b1bfed9b6473aa0096bd4c9db0782e2ef061a0d578af9b42dadd1d5caf3a66fd"
+}

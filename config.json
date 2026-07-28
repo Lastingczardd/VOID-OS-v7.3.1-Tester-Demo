@@ -1,0 +1,122 @@
+{
+  "version": "7.3.1-demo",
+  "ollama_url": "http://127.0.0.1:11434/api/generate",
+  "models": {
+    "chat": "qwen2.5:3b",
+    "reasoning": "qwen2.5:3b",
+    "vision": "gemma3:4b",
+    "coding": "qwen2.5-coder:7b"
+  },
+  "temperature": 0.65,
+  "max_output_tokens": 420,
+  "request_timeout_seconds": 240,
+  "api": {
+    "enabled": false,
+    "host": "127.0.0.1",
+    "port": 8765
+  },
+  "budgets": {
+    "max_workflow_steps": 10,
+    "max_agent_cycles": 3,
+    "max_runtime_seconds": 1200
+  },
+  "active_project": "default",
+  "agent_output_tokens": 360,
+  "synthesis_output_tokens": 900,
+  "continuation_output_tokens": 450,
+  "max_auto_continuations": 0,
+  "model_context_tokens": 8192,
+  "security": {
+    "local_only": true,
+    "require_api_token": true,
+    "max_api_body_bytes": 262144,
+    "max_prompt_chars": 50000,
+    "max_plugin_args_bytes": 65536,
+    "max_workflow_input_chars": 50000,
+    "redact_logs": true,
+    "verify_core_on_startup": true,
+    "api_requests_per_minute": 30
+  },
+  "coding": {
+    "allow_core_upgrade_proposals": true,
+    "proposal_output_tokens": 2400,
+    "context_tokens": 12288,
+    "human_approval_required": true,
+    "automatic_apply": false,
+    "fixed_validation_only": true
+  },
+  "agent_factory": {
+    "max_repair_cycles": 2,
+    "context_tokens": 16384,
+    "human_approval_required": true,
+    "automatic_install": false
+  },
+  "autopilot": {
+    "objective": "Continuously improve logic, creative problem solving, reliability, and usefulness.",
+    "cycle_pause_seconds": 2,
+    "continuous_until_stop": true,
+    "automatic_external_actions": false,
+    "automatic_permission_changes": false,
+    "upgrade_void_os": false,
+    "core_upgrade_every_cycles": 999999,
+    "automatic_low_risk_core_apply": false,
+    "max_core_files_per_upgrade": 2,
+    "rollback_required": true,
+    "operator_controls": [
+      "start",
+      "stop"
+    ],
+    "self_generated_backlog": true,
+    "ask_user_for_plan": false,
+    "evidence_driven_priority": true,
+    "record_lessons": true,
+    "implement_project_upgrades": true,
+    "automatic_low_risk_project_apply": true,
+    "max_project_files_per_upgrade": 2,
+    "promote_each_cycle_to_active_project": true
+  },
+  "image_generation": {
+    "enabled": false,
+    "provider": "automatic1111",
+    "url": "http://127.0.0.1:7860",
+    "every_cycles": 2,
+    "width": 768,
+    "height": 768,
+    "steps": 24,
+    "cfg_scale": 7.0,
+    "sampler_name": "DPM++ 2M Karras",
+    "timeout_seconds": 600,
+    "negative_prompt": "blurry, low quality, unreadable text, watermark, duplicate objects, distorted anatomy"
+  },
+  "research": {
+    "enabled": false,
+    "every_cycles": 1,
+    "max_results_per_source": 3,
+    "timeout_seconds": 18,
+    "max_response_bytes": 500000,
+    "allowed_domains": [
+      "en.wikipedia.org",
+      "export.arxiv.org",
+      "api.crossref.org",
+      "api.stackexchange.com"
+    ],
+    "user_agent": "VOID-OS-Research/7.1 (local autonomous engineering research)"
+  },
+  "autonomous_engineering_kernel": {
+    "enabled": true,
+    "generate_competing_candidates": 2,
+    "dynamic_team_selection": true,
+    "evidence_ledger": true,
+    "self_generated_goals": true,
+    "operator_planning_required": false,
+    "experiment_before_implementation": true
+  },
+  "demo": {
+    "enabled": true,
+    "edition": "Tester Demo",
+    "max_cycles_per_run": 3,
+    "max_total_cycles": 10,
+    "proposal_only_core": true,
+    "show_usage": true
+  }
+}
